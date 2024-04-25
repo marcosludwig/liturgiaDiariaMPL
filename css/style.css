@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+:root {
+  --verde-belo: #0b6f1c;
+}
+
+* {
+  padding: 1rem;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sedan", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  background-color: white;
+}
+
+p {
+  text-align: justify;
+  max-width: 50%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: var(--verde-belo);
+}
+
+#data {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#cor {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  color: var(--verde-belo);
+}
+
+#primeiraLeitura {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#primeiraLeitura-referencia {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#primeiraLeitura-titulo {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#primeiraLeitura-texto {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#salmo {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#salmo-referencia {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#salmo-refrao {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#salmo-texto {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#segundaLeitura {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#segundaLeitura-referencia {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#segundaLeitura-titulo {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#segundaLeitura-texto {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#evangelho {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#evangelho-referencia {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#evangelho-titulo {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#evangelho-texto {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
