@@ -25,10 +25,28 @@ body {
   background-color: white;
 }
 
-p {
-  text-align: justify;
-  max-width: 50%;
-  margin: auto;
+/* Estilo para desktop */
+@media (min-width: 992px) {
+  :root {
+    --tamanho-fonte: 1.5rem;
+  }
+    p {
+      text-align: justify;
+      max-width: 50%;
+      margin: auto;
+    }
+}
+
+/* Estilo para mobile */
+@media (max-width: 991.98px) {
+  :root {
+    --tamanho-fonte: 1rem;
+  }
+  p {
+    text-align: justify;
+    max-width: 100%;
+    margin: auto;
+  }
 }
 
 h2 {
@@ -49,81 +67,87 @@ h2 {
 }
 
 #primeiraLeitura {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #primeiraLeitura-referencia {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #primeiraLeitura-titulo {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #primeiraLeitura-texto {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #salmo {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #salmo-referencia {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #salmo-refrao {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #salmo-texto {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #segundaLeitura {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #segundaLeitura-referencia {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #segundaLeitura-titulo {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #segundaLeitura-texto {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #evangelho {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #evangelho-referencia {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #evangelho-titulo {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
   color: var(--verde-belo);
 }
 
 #evangelho-texto {
-  font-size: 1.5rem;
+  font-size: var(--tamanho-fonte);
+  color: var(--verde-belo);
+}
+
+#footer {
+  text-align: center;
+  font-size: 0.8rem;
   color: var(--verde-belo);
 }
