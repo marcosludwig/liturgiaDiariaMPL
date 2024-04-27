@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Liturgia Diária MPL</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="menu">
+      <ul class="ul-menu">
+        <li>
+          <h1>Liturgia</h1>
+          <input type="date" id="myDate">
+          <button onclick="changeDate()">OK</button>
+        </li>
+
+        <div class="icon-opcao-menu">
+          <a href="index.html">
+            <li class="menu-link"><i class="bi bi-book"></i>
+            <p class="opcao-menu">1 Leitura</p></li>
+          </a>
+        </div>
+
+        <div class="icon-opcao-menu">
+          <a href="salmo.html">
+            <li class="menu-link"><i class="bi bi-bookmark-fill"></i>
+            <p class="opcao-menu">Salmo</p></li>
+          </a>
+        </div>
+
+        <div class="icon-opcao-menu">
+          <a href="segundaleitura.html">
+            <li class="menu-link"><i class="bi bi-book-half"></i>
+            <p class="opcao-menu">2 Leitura</p></li>
+          </a>
+        </div>
+
+        <div class="icon-opcao-menu">
+          <a href="evangelho.html">
+            <li class="menu-link"><i class="bi bi-book-fill"></i>
+            <p class="opcao-menu">Evangelho</p></li>
+          </a>
+        </div>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="data"></section>
+    <section id="liturgia"></section>
+    <section id="cor"></section>
+    <section id="evangelho"></section>
+  </main>
+
+  <footer id="footer">Sérviam! Desenvolvido por ©<a href="http://about.me/marcosludwig">MPL</a> para a disciplina de Modern Web
+    no curso <a href="https://unyleya.edu.br/pos-graduacao-ead/curso/mba-em-desenvolvimento-full-stack">MBA de
+      Desenvolvimento Full Stack, Faculdade Unyleya</a>.</footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

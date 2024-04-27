@@ -26,19 +26,33 @@ body {
 }
 
 /* Estilo para desktop */
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   :root {
     --tamanho-fonte: 1.5rem;
   }
-    p {
-      text-align: justify;
-      max-width: 50%;
-      margin: auto;
-    }
+
+  p {
+    text-align: justify;
+    max-width: 50%;
+    margin: auto;
+  }
+
+  a {
+    padding: 0 0 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--verde-belo);
+  }
+  
+  a:hover {
+      text-decoration: underline;
+      font-weight: bold;
+      color: var(--verde-belo);
+  }
 }
 
 /* Estilo para mobile */
-@media (max-width: 991.98px) {
+@media (max-width: 989.99px) {
   :root {
     --tamanho-fonte: 1rem;
   }
@@ -47,14 +61,110 @@ body {
     max-width: 100%;
     margin: auto;
   }
+
+  a {
+    padding: 0 0 0 0;
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--verde-belo);
+  }
+}
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  padding: 0 0 0 0;
+}
+
+@media (min-width: 990px) {
+  header h1 {
+    font-size: 3rem;
+    color: var(--verde-belo);
+  }
+
+  .menu .ul-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 989.99px) {
+  header h1 {
+    font-size: 2rem;
+    color: var(--verde-belo);
+  }
+
+  .menu .ul-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+li {
+  list-style: none;
+  padding: 2rem;
+  color: var(--verde-belo);
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  padding: 0 0 0 0;
+}
+
+/*.icon-opcao-menu {
+  text-align: center;
+}*/
+
+.opcao-menu {
+  /*text-align: none;*/
+  max-width: 100%;
+  font-size: var(--tamanho-fonte);
+  color: var(--verde-belo);
+}
+
+.bi-book
+{
+  font-size: 50px
+}
+
+.bi-bookmark-fill
+{
+  font-size: 50px
+}
+
+.bi-book-half
+{
+  font-size: 50px
+}
+
+.bi-book-fill
+{
+  font-size: 50px
 }
 
 h2 {
   text-align: center;
-  color: var(--verde-belo);
+  color:  var(--verde-belo);
 }
 
 #data {
+  font-size: 1.5rem;
+  color: var(--verde-belo);
+}
+
+#liturgia {
   font-size: 1.5rem;
   color: var(--verde-belo);
 }
